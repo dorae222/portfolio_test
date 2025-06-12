@@ -10,6 +10,8 @@ import pandas as pd
 import numpy as np
 from datetime import datetime
 import json
+import os
+
 
 # Dash 앱 초기화
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
